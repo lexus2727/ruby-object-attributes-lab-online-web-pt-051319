@@ -7,16 +7,19 @@ class Dog
     @that
     end
 
-  def job=(person_job)
-     @job = person_job
+ def breed=(dog_breed)
+   @breed = dog_breed
    end
    
-   def job
-     @job
-   end
+   def breed
+     @breed
+ end
  end
    
 
-beyonce = Person.new
-beyonce.name = "Beyonce"
-beyonce 
+fido = Dog.new
+fido.name = "Fido"
+fido.name
+snoopy = Dog.new
+snoopy.breed = "Beagle"
+snoopy.breed
