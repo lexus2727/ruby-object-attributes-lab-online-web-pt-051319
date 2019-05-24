@@ -1,7 +1,7 @@
 class Dog
  
   def name=(dog_name)
-    @that
+    @name
     end
     
     def name
