@@ -3,9 +3,9 @@ class Person
     @name = name
   end
   
-  #def name=(name)
-    #@name = name
-  #end
+  def name=(name)
+    @name = name
+  end
   
   def name
     @name
@@ -21,7 +21,6 @@ class Person
 end
 
  beyonce = Person.new("Beyonce")
-# beyonce.name 
  beyonce.name
  beyonce.job = "Singer"
  beyonce.job
